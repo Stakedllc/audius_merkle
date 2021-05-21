@@ -1,0 +1,16 @@
+{
+  "name": "audius_merkle",
+  "version": "1.0.0",
+  "repository": "git@github.com:Stakedllc/audius_merkle.git",
+  "dependencies": {
+    "@openzeppelin/contracts": "3.1.0",
+    "bignumber.js": "^4.1.0",
+    "ethers": "^5.1.4",
+    "ganache-cli": "^6.12.0",
+    "truffle": "5.1.47",
+    "truffle-hdwallet-provider": "^1.0.2"
+  },
+  "scripts": {
+    "main-fork": "ganache-cli --fork https://mainnet.infura.io/v3 --port 8545 -l 9000000 --unlock 0x5A2890B14B49e5a2Ad9718F7c74973C3297a571c --networkId 1 --deterministic"
+  }
+}
